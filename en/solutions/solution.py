@@ -1,8 +1,6 @@
 from gpiozero import Robot
-from resources.PS4controller import MyController
+from en.resources.PS4controller import MyController
 import time
-
-
 
 robot = Robot(left = (7, 8), right = (9, 10))
 while True:
